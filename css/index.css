@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  background: #1ecfb8;
+  padding: 1% 0;
+  margin: 1% 2.5%;
+}
+nav img {
+  width: 20%;
+  height: 10vh;
+}
+nav a {
+  width: 20%;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #1a45d1;
+}
+body {
+  background: #2a56ae23;
+}
+body #about,
+body #service,
+body #contact {
+  margin: 1% 2.5%;
+  padding: 2%;
+}
